@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Project tracking intro component</title>
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <header class="container">
+    <img id="logo" src="images/logo.svg" alt="logo in the shape of a square cut in the middle in the shape of a triangle">
+    <button onclick="showMenu()" id="buttonMenu">
+      <img src="images/icon-hamburger.svg" alt="menu button icon">
+      <img src="images/icon-close.svg" alt="menu button icon close">
+    </button>
+    <div class="menu" id="menu">
+      <a href="#">Product</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <div class="divider-menu"></div>
+      <a class="light" href="#">Login</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="container-images">
+      <div class="gray-bg-shape"></div>
+      <img class="illustration-devices" src="images/illustration-devices.svg" alt="illustration of devices, one smartphone and one notebook">
+    </section>
+    
+    <section id="presentation">
+      <p><b>NEW </b>MONOGRAPH DASHBOARD</p>       
+      <h1>Powerful insights into your team</h1>
+      <p> Project planning and time tracking for agile teams</p>
+      <div id="buttons">
+        <button>Schedule a demo</button>
+        <a href="#">to see a live preview</a>
+      </div>
+      
+    </section>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/DrKelvin" target="_blank">DrKelvin</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
